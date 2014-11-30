@@ -19,6 +19,8 @@
 		625979A31906966D00B202E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6259798B1906966D00B202E7 /* UIKit.framework */; };
 		625979AB1906966D00B202E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 625979A91906966D00B202E7 /* InfoPlist.strings */; };
 		625979AD1906966D00B202E7 /* Quiz2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 625979AC1906966D00B202E7 /* Quiz2Tests.m */; };
+		625979B9190696B800B202E7 /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625979B7190696B800B202E7 /* BNRViewController.m */; };
+		625979BA190696B800B202E7 /* BNRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625979B8190696B800B202E7 /* BNRViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		625979A81906966D00B202E7 /* Quiz2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz2Tests-Info.plist"; sourceTree = "<group>"; };
 		625979AA1906966D00B202E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		625979AC1906966D00B202E7 /* Quiz2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz2Tests.m; sourceTree = "<group>"; };
+		625979B6190696B800B202E7 /* BNRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRViewController.h; sourceTree = "<group>"; };
+		625979B7190696B800B202E7 /* BNRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
+		625979B8190696B800B202E7 /* BNRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		6259797B1906966D00B202E7 = {
 			isa = PBXGroup;
 			children = (
+				625979B6190696B800B202E7 /* BNRViewController.h */,
+				625979B7190696B800B202E7 /* BNRViewController.m */,
+				625979B8190696B800B202E7 /* BNRViewController.xib */,
 				6259798D1906966D00B202E7 /* Quiz2 */,
 				625979A61906966D00B202E7 /* Quiz2Tests */,
 				625979861906966D00B202E7 /* Frameworks */,
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625979BA190696B800B202E7 /* BNRViewController.xib in Resources */,
 				625979921906966D00B202E7 /* InfoPlist.strings in Resources */,
 				6259799A1906966D00B202E7 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +251,7 @@
 			files = (
 				625979941906966D00B202E7 /* main.m in Sources */,
 				625979981906966D00B202E7 /* BNRAppDelegate.m in Sources */,
+				625979B9190696B800B202E7 /* BNRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +371,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quiz2/Quiz2-Prefix.pch";
 				INFOPLIST_FILE = "Quiz2/Quiz2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Quiz2/Quiz2-Prefix.pch";
 				INFOPLIST_FILE = "Quiz2/Quiz2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
